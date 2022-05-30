@@ -77,7 +77,7 @@ export const links: LinksFunction = () => {
   return [
     {
       rel: "canonical",
-      href: "https://www.alissanguyen.dev/"
+      href: "https://www.devato.de/"
     },
     ...linkButtonStyles(),
     ...aboutMeStyles(),
