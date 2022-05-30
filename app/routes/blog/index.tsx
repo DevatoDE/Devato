@@ -32,7 +32,7 @@ export const links: LinksFunction = () => {
     { rel: "stylesheet", href: blogStyles },
     {
       rel: "canonical",
-      href: "https://www.alissanguyen.dev/blog"
+      href: "https://www.devato.de/blog"
     }
   ];
 };

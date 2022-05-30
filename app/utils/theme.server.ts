@@ -11,7 +11,7 @@ if (!sessionSecret) {
 
 const themeStorage = createCookieSessionStorage({
   cookie: {
-    name: "alissa_nguyen_dev_theme",
+    name: "flo_stanglmeier_theme",
     secure: true,
     secrets: [sessionSecret],
     sameSite: "lax",

@@ -58,12 +58,12 @@ export const meta: MetaFunction = ({ data, location }) => {
     const dataWithType: PostLoaderData = data;
     const { blogPost } = dataWithType;
     const imageURl = "https:" + blogPost.fields.blogPostSplash.fields.file.url;
-    const webURL = "https://www.alissanguyen.dev" + location.pathname;
+    const webURL = "https://www.devato.de" + location.pathname;
     const description = blogPost.fields.blogPostExcerpt.slice(0, 160) + "... ";
     const title = blogPost.fields.blogPostTitle;
     const keywords =
       blogPost.fields.blogPostKeywords +
-      ", Alissa Nguyen, AlissaNguyen, FrontEnd Engineer";
+      ", Devato, Florian S, FrontEnd Engineer";
     const publishedDate = blogPost.sys.createdAt;
     const updatedDate = blogPost.sys.updatedAt;
     return {
@@ -74,7 +74,7 @@ export const meta: MetaFunction = ({ data, location }) => {
       "og:url": webURL,
       "og:image": imageURl,
       "og:title": title,
-      "og:site_name": "Alissa Nguyen's Blog",
+      "og:site_name": "Devato Shopify Agentur | Blog",
       "og:type": "article",
       "og:description": description,
       "article:published_time": publishedDate,
