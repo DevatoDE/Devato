@@ -4,6 +4,7 @@ import SelectField from "./SelectField";
 import TextareaField from "./TextareaField";
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import emailjs from '@emailjs/browser';
+import { Button } from "@nextui-org/react";
 
 const Contact = () => {
   const [values, setValues] = useState({
@@ -54,17 +55,20 @@ const Contact = () => {
         <InputField value={values.email} handleChange={handleChange} label="E-Mail" name="email" type="email" placeholder="jphn@example.com" />
         <SelectField handleChange={handleChange} name="role" label="Betreff" />
         <TextareaField value={values.message} handleChange={handleChange} label="Ihre Nachricht" name="message" />
-        <button type="submit"
+        <Button type="submit"
+        rounded
+        ghost
+        color="gradient"
           className="mt-4 bg-gray-900 text-gray-200 rounded hover:bg-gray-700 px-4 py-2 focus:outline-none"
         >Senden <ChevronRightIcon className="w-6 ml-2 float-right" />
-        </button>
+        </Button>
       </form>
     </div>
   )
 }
 
 const renderAlert = () => (
-  <div className="px-4 py-3 leading-normal text-blue-700 bg-blue-100 rounded mb-5 text-center">
+  <div className="px-4 py-3 leading-normal text-blue-700 rounded mb-5 text-center">
     <p>Wir haben Ihre Anfrage erhalten!</p>
   </div>
 )
