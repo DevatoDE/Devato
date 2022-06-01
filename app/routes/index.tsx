@@ -26,9 +26,7 @@ import {
   WEBSITE_URL
 } from "~/constants";
 import AboutMe, { links as aboutMeStyles } from "~/sections/AboutMe/AboutMe";
-import ContactMeSection, {
-  links as contactStyles
-} from "~/sections/Contact/Contact";
+import Contact from "~/components/Contact";
 import MySkills, { links as skillsStyles } from "~/sections/MySkills/MySkills";
 import { links as ResumeBtnStyles } from "~/components/ResumeButton/ResumeButton";
 import { links as SocialMediaStyles } from "~/components/SocialMedia/SocialMedia";
@@ -83,7 +81,7 @@ export const links: LinksFunction = () => {
     ...aboutMeStyles(),
     ...skillsStyles(),
     ...projectsStyles(),
-    ...contactStyles(),
+    // ...contactStyles(),
     ...ResumeBtnStyles(),
     ...SocialMediaStyles()
   ];
@@ -233,10 +231,8 @@ const Index: React.FC = () => {
         </div>
         <div className="blob-bg pb-10" id="contact">
           <div className={`${fixedWidthLayoutClasses} pt-20`}>
-            <ContactMeSection
-              fieldErrors={actionData && actionData.fieldErrors}
-              transition={transition}
-            />
+            <Contact/>
+          
           </div>
           {/* <Cookie /> */}
           <CookieConsent
