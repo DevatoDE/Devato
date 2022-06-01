@@ -49,14 +49,14 @@ const Contact = () => {
     <div className="lg:mt-48 lg:mr-48 pt-6 pb-8 bg-white shadow-xl rounded p-5">
       {status && renderAlert()}
       <form onSubmit={handleSubmit}>
-        <h3 className="text-gray-700 mb-7 text-xl font-semibold">Send us message</h3>
-        <InputField value={values.fullName} handleChange={handleChange} label="Full Name" name="fullName" type="text" placeholder="John Doe" />
+        <h3 className="text-gray-700 mb-7 text-xl font-semibold">Senden Sie uns eine Anfrage</h3>
+        <InputField value={values.fullName} handleChange={handleChange} label="Ihr (Unternehmens-) Name" name="fullName" type="text" placeholder="John Doe" />
         <InputField value={values.email} handleChange={handleChange} label="E-Mail" name="email" type="email" placeholder="jphn@example.com" />
-        <SelectField handleChange={handleChange} name="role" label="Role" />
-        <TextareaField value={values.message} handleChange={handleChange} label="Your message here" name="message" />
+        <SelectField handleChange={handleChange} name="role" label="Betreff" />
+        <TextareaField value={values.message} handleChange={handleChange} label="Ihre Nachricht" name="message" />
         <button type="submit"
           className="mt-4 bg-gray-900 text-gray-200 rounded hover:bg-gray-700 px-4 py-2 focus:outline-none"
-        >Send <ChevronRightIcon className="w-6 ml-2 float-right" />
+        >Senden <ChevronRightIcon className="w-6 ml-2 float-right" />
         </button>
       </form>
     </div>
@@ -65,7 +65,7 @@ const Contact = () => {
 
 const renderAlert = () => (
   <div className="px-4 py-3 leading-normal text-blue-700 bg-blue-100 rounded mb-5 text-center">
-    <p>your message submitted successfully</p>
+    <p>Wir haben Ihre Anfrage erhalten!</p>
   </div>
 )
 
