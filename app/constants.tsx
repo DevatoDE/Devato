@@ -18,7 +18,7 @@ export const IMAGE_HEIGHT = "630";
 export const PORTFOLIO_WEBSITE_NAME = "Devato | Shopify Development";
 export const BLOG_WEBSITE_NAME = "Devato | Blog";
 export const TWITTER_CARD_TYPE = "summary_large_image";
-export const AUTHOR = "Flo S";
+export const AUTHOR = "Florian Stanglmeier";
 export const WEBSITE_URL = "https://www.devato.de/";
 export const BLOG_URL = "https://www.devato.de/blog";
 export const TWITTER_ACC = "@flostanglmeier";
@@ -28,13 +28,13 @@ export const WEBSITE_KEYWORDS =
 export const BLOG_KEYWORDS =
 "Remix, Shopify, ECommerce, Shopify Agentur, Agentur Shopify, Shopify Software Entwicklung, Shopify Development, Backend, Software Development, Software Engineer, Modern Programing, Frontend Engineer, Web Developer, Florian Stanglmeier, Tobias Peters, Ecommerce Optimierung, Shopify Beratung, Shopify Programmierer";
 export const WEBSITE_DESCRIPTION =
-  "Wir sind deine zuverlässige Shopify Agentur für die Entwicklung von Shopify-Websites und -Apps, sowie für die Optimierung von E-Commerce Shops.";
+  "Devato ist einer der führenden Anbieter für Shopify eCommerce Development im deutschsprachigen Raum. Durch jahrelange Expertise und Millionenumsätzen in eigenen Shopify Stores, weiß das Devato Team exakt, vor welchen Problemen eCommerce Treiber stehen. Dadurch können wir einen einzigartige Dienstleistung anbieten. Für die Entwicklung neuer Shopify Stores, Migration von WooCommerce zu Shopify, technische Backend Entwicklungen, API Integration & Automation sowie Optimierung von Sales und Conversion Rate unterstützen wir unsere Kunden.";
 export const BLOG_DESCRIPTION =
   "Shopify Development von Experten: Alles rund um ECommerce Optimierung und Software Engineering für Shopify-Websites und -Apps.";
 export const PORTFOLIO_IMAGE_URL =
-  "https://www.alissanguyen.dev/images/preview.jpg";
+  "https://www.devato.de/images/preview.jpg";
 export const BLOG_IMAGE_URL =
-  "https://www.alissanguyen.dev/images/blogpreview.jpg";
+  "https://www.devato.de/images/blogpreview.jpg";
 
 export const topLevelLinksOnMobile: { href: string; displayName: string }[] = [
   {

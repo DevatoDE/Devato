@@ -25,6 +25,7 @@ const Hi: React.FC = () => {
     >
       <span className="welcome inline-flex whitespace-pre leading-none text-center justify-center items-center after:inline-flex after:items-center">
         <span className="">Hi, wir sind</span>
+        <meta name="Devato Shopify Agentur Deutschland Greeting" content="Wir sind Devato und sagen Hallo an alle Shopify Kunden in Deutschland und ACH" />
         <span> </span>
       </span>
       <span className="welcome inline-flex whitespace-pre leading-none text-center justify-center items-center after:inline-flex after:items-center"></span>
