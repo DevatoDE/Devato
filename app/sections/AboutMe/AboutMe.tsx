@@ -11,6 +11,13 @@ import Facts from "./Facts";
 import Testimonials from "./Testimonials";
 import { Button } from "@nextui-org/react";
 import Services from "./Services";
+import { getSeo, getSeoMeta, getSeoLinks } from "~/seo";
+
+let [seoMeta, seoLinks] = getSeo({
+	title: "About us",
+	description: "We are great!",
+});
+
 
 export const links: LinksFunction = () => [
   {
