@@ -30,9 +30,14 @@ import { getThemeSession } from "./utils/theme.server";
 import ErrorPage from "./components/Error/ErrorPage";
 import { injectGA } from "~/utils/ga.jsx";
 
+import { getSeo } from "~/seo";
+let [seoMeta, seoLinks] = getSeo();
+
+export let meta = () => ({...seoMeta});
+
 
 export const links: LinksFunction = () => {
-  return [
+  return [...seoLinks,
     { rel: "stylesheet", href: tailwind },
     { rel: "stylesheet", href: themeBtnStyles },
     { rel: "stylesheet", href: navbarStyleSheet },
