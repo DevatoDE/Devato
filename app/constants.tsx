@@ -15,8 +15,8 @@ import {
 
 export const IMAGE_WIDTH = "1200";
 export const IMAGE_HEIGHT = "630";
-export const PORTFOLIO_WEBSITE_NAME = "Devato | Shopify Development";
-export const BLOG_WEBSITE_NAME = "Devato | Blog";
+export const PORTFOLIO_WEBSITE_NAME = "Devato | Shopify Agentur Deutschland | Shopify Development";
+export const BLOG_WEBSITE_NAME = "Devato | Shopify Blog DACH";
 export const TWITTER_CARD_TYPE = "summary_large_image";
 export const AUTHOR = "Florian Stanglmeier";
 export const WEBSITE_URL = "https://www.devato.de/";
