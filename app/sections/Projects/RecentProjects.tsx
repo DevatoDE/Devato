@@ -9,7 +9,7 @@ const RecentProjectsTitle: React.FC = () => {
   const className = wasInViewAtLeastOnce ? "title-animation" : "";
   return (
     <div
-      className={`gradient-title ${className} text-center lg:text-[7.5rem] md:text-[5rem] sm:text-[3rem] xs:text-[2rem] text-[1.5rem] overflow-visible text-transparent`}
+      className={`gradient-title ${className} text-center lg:text-[6rem] md:text-[5rem] sm:text-[3rem] xs:text-[2rem] text-[1.5rem] overflow-visible text-transparent`}
       ref={setRef}
     >
       Projekte und Referenzen
