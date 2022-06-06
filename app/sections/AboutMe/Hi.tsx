@@ -3,7 +3,7 @@ import { useTypewriter } from "use-typewriter-hook";
 
 // $TODO: Fix element unmount on scrolling up
 const Hi: React.FC = () => {
-  const targetText = "Dein Partner für Shopify🛍️ ";
+  const targetText = "Shopify🛍️ Partner";
 
   const { textValue: typedText, wrapperClassName } = useTypewriter({
     targetText: targetText,
@@ -24,9 +24,8 @@ const Hi: React.FC = () => {
       aria-label="Wir sind Devato"
     >
       <span className="welcome inline-flex whitespace-pre leading-none text-center justify-center items-center after:inline-flex after:items-center">
-        <span className="">Hi, wir sind</span>
+        <span className="">Hi, wir sind Dein</span>
         <meta name="Devato Shopify Agentur Deutschland Greeting" content="Wir sind Devato und sagen Hallo an alle Shopify Kunden in Deutschland und ACH" />
-        <span> </span>
       </span>
       <span className="welcome inline-flex whitespace-pre leading-none text-center justify-center items-center after:inline-flex after:items-center"></span>
       <span className="inline-flex whitespace-pre leading-none text-center justify-center items-center after:inline-flex after:items-center"><span className={`${wrapperClassName}`}>{fragments}</span>
