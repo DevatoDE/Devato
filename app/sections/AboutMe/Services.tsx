@@ -28,11 +28,11 @@ const Services: React.FC = () => {
                   text-textSmColor
                   "
                   >
-                  Angebote für Unternehmen
+                  Angebote & Abonnements
                </h2>
                <p className="text-base text-body-color text-text-SmColor">
-                  Durch das Management eigener Shopify Stores mit einem Bestellvolumen von
-                  mehr als 10.000 Produkten monatlich können wir Ihnen Services bieten die Sie wirklich benötigen.
+                  Durch unsere Experten und Developer setzen wir Ihr Projekt zielgerichtet um.
+                  Unsere Kunden profitieren auch von monatlichen Abonnements, welche einerseits ein dauerhaftes Kontingent für Ihre Projekte bieten, andererseits durch akribisches Management Ihren Shopify Store auf einem technisch perfekten Stand halten.
                </p>
             </div>
          </div>
@@ -134,7 +134,7 @@ const Services: React.FC = () => {
                   Shop Migration
                </h4>
                <p className="text-body-color text-lg text-text-SmColor">
-                  Sie nutzen noch immer WooCommerce oder veraltete Shop Systeme? Wir helfen
+                  Sie nutzen noch immer WooCommerce oder veraltete Shop Systeme wie Shopify 1.0? Wir helfen
                   Ihnen beim Umzug Ihrer E-Commerce Assets.
                </p>
             </div>

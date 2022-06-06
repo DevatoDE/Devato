@@ -47,19 +47,19 @@ const Contact = () => {
     }))
   }
   return (
-    <div className="lg:mt-48 lg:mr-48 pt-6 pb-8 bg-white shadow-xl rounded p-5">
+    <div className="lg:mt-0 lg:mr-45 pt-6 pb-8 bg-white shadow-xl rounded p-5">
       {status && renderAlert()}
       <form onSubmit={handleSubmit}>
-        <h3 className="text-gray-700 mb-7 text-xl font-semibold">Senden Sie uns eine Anfrage</h3>
+        <h3 className="text-gray-700 mb-15 text-4xl font-semibold">Senden Sie uns eine Anfrage</h3>
         <InputField value={values.fullName} handleChange={handleChange} label="Ihr (Unternehmens-) Name" name="fullName" type="text" placeholder="John Doe" />
         <InputField value={values.email} handleChange={handleChange} label="E-Mail" name="email" type="email" placeholder="jphn@example.com" />
-        <SelectField handleChange={handleChange} name="role" label="Betreff" />
+        {/* <SelectField handleChange={handleChange} name="role" label="Betreff" /> */}
         <TextareaField value={values.message} handleChange={handleChange} label="Ihre Nachricht" name="message" />
         <Button type="submit"
         rounded
         ghost
         color="gradient"
-          className="mt-4 bg-gray-900 text-gray-200 rounded hover:bg-gray-700 px-4 py-2 focus:outline-none"
+          className="mt-10 bg-gray-900 text-gray-200 rounded hover:bg-gray-700 px-4 py-2 focus:outline-none"
         >Senden <ChevronRightIcon className="w-6 ml-2 float-right" />
         </Button>
       </form>

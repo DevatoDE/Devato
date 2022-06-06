@@ -336,21 +336,21 @@ export const recentProjects = [
     name: "Unimals",
     description:
       "Unimals verkauft Artikel die der Kunde selbst gestalten kann. Neben einer ausgiebigen Analyse der bestehenden Prozesse, wurde eine gründliche Optimierung der generellen Schnittstellen vorgenommen. Ferner mussten alle Bestellungen im Backend automatisch an die Supplier API gesendet werden.",
-    gitRepo: "https://github.com/alissanguyen/lunar",
+    gitRepo: "https://www.devato.de/blog",
     website: "https://www.unimals.de/",
     img: "/images/projects/unimals.png"
   },
   {
     name: "HelloBello",
-    description: "Migration von WooCommerce zu Shopify auf Basis eines integrierten Subscription (Abo) Modelles.",
-    gitRepo: "https://github.com/alissanguyen/league-demo",
+    description: "Migration von WooCommerce zu Shopify auf Basis eines integrierten Subscription (Abo) Modelles. Dank Shopify 2.0 und weiteren Entwicklungen im Abbonement Modell konnen wir die Shopify API erweitern und die Integration mit der Supplier API ermöglichen, sowie wiederkehrende Zahlungen implementieren.",
+    gitRepo: "https://www.devato.de/blog",
     website: "https://www.hellobello.at/",
     img: "/images/projects/HelloBello.png"
   },
   {
-    name: "LiWanda",
-    description: "A responsive website with animations and futuristic design.",
-    gitRepo: "https://github.com/alissanguyen/atom",
+    name: "Ihr Projekt",
+    description: "Jedes Projekt ist einzigartig. Devato bietet Ihnen sowohl maßgeschneiderte Projekte, als auch erprobte, definierte Dienstleistungen. Wir geben Ihnen die Möglichkeit, Ihre Shopify Vorhaben nach Ihren Vorstellungen zielorientiert umzusetzen. ",
+    gitRepo: "https://www.devato.de/blog",
     website: "https://atom.alissanguyen.dev",
     img: "/images/projects/atom.jpg"
   },
@@ -552,7 +552,7 @@ export const facts = [
       "Durch Chatbots und ander On-Site Apps bieten Sie Ihren Kunden mehr als die Konkurrenz",
       image: "/images/facts/bg_services.jpg",
     color: "pink",
-    imgDescription: "Pic of piano"
+    imgDescription: "Shopify Chatbot Integration DACH - Shopify Chatbot deutscher Anbieter"
   },
   {
     index: 8,
@@ -560,7 +560,7 @@ export const facts = [
     description: "Wir lösen die technisch komplexesten Shopify Probleme.",
     image: "/images/facts/bg_services.jpg",
     color: "rose",
-    imgDescription: "Pic of a dad (not my dad)"
+    imgDescription: "Shopify Development Agentur Deutschland - Shopify Migration Services"
   }
 ];
 

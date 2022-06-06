@@ -7,7 +7,7 @@ const Titles: React.FC = ({}) => {
         <h1 className="hidden">
           Wir sind Software Engineers, Marketing Experten, Designer und Process Engineers.
         </h1>
-        <p className="title-content__container__text m-0  inline-flex">Wir sind</p>
+        <p className="title-content__container__text m-50  inline-flex">Wir sind</p>
         <span className="blinker">[</span>
         <ul className="title-content__container__list text-center list-none">
           <li className="title-content__container__list__item m-0">

@@ -8,10 +8,10 @@ body {
   font-size: 62.5%;
   background-color: var(--background-color);
   overflow-x: hidden;
-  font-weight: 400;
+  font-weight: 300;
   width: 100%;
   font-display: block;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 html {
   overflow-x: hidden;

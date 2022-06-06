@@ -9,10 +9,10 @@ const RecentProjectsTitle: React.FC = () => {
   const className = wasInViewAtLeastOnce ? "title-animation" : "";
   return (
     <div
-      className={`gradient-title ${className} text-center lg:text-[9rem] md:text-[7rem] sm:text-[4rem] xs:text-[3rem] text-[2.5rem] overflow-visible text-transparent`}
+      className={`gradient-title ${className} text-center lg:text-[7.5rem] md:text-[5rem] sm:text-[3rem] xs:text-[2rem] text-[1.5rem] overflow-visible text-transparent`}
       ref={setRef}
     >
-      Recent projects
+      Projekte und Referenzen
     </div>
   );
 };
@@ -57,7 +57,7 @@ const RecentProjects: React.FC = ({}) => {
                 linkProps={{
                   target: "_blank"
                 }}
-                accessibilityName="Visit website"
+                accessibilityName="Website ansehen"
               >
                 Website ansehen
               </ExternalLinkButton>

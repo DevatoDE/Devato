@@ -56,6 +56,10 @@ export const links: LinksFunction = () => {
       href: "/fonts/pacifico.css"
     },
     {
+      rel: "stylesheet",
+      href: "/fonts/Montserrat.css"
+    },
+    {
       rel: "apple-touch-icon",
       sizes: "180x180",
       href: "/apple-touch-icon.png"
