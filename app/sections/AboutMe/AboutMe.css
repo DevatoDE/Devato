@@ -105,7 +105,7 @@
 }
 /* Work for screens above 880px */
 .title-content {
-  font-size: 25px;
+  font-size: 23px;
   line-height: 40px;
 }
 
@@ -192,7 +192,7 @@
 }
 @media screen and (max-width: 375px) {
   .title-content {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 31px;
   }
   .title-content__container {
